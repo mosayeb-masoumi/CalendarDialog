@@ -147,10 +147,12 @@ how to create customized dialog:
     
     
     
- customized PersianCalendar dialog image:
+ customized CalendarDialog dialog image:
  
 ![customized](https://user-images.githubusercontent.com/40134233/82564242-afc77580-9b8d-11ea-9c73-e749fb66a955.png)
     
- simple PersianCalendar dialog image:
+ simple CalendarDialog image:
+ 
+ ![simple](https://user-images.githubusercontent.com/40134233/82564321-d4235200-9b8d-11ea-94b6-2682fb16505f.png)
  
  
