@@ -87,6 +87,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-        }, layout_root,calendarDialog);
+        }, layout_root);
     }
 }
