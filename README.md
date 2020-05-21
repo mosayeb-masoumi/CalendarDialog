@@ -27,7 +27,7 @@ libray:
     implementation 'com.github.mosayeb-masoumi:CalendarDialog:1.1.0'
    
     
-# implimentation in java
+# implementation in java
 
 how to create simple dialog:
    
@@ -111,7 +111,7 @@ how to create customized dialog:
     
     
     
-  # implimentation in kotlin   
+  # implementation in kotlin   
   
   
     class SecondActivity : AppCompatActivity() {
