@@ -121,8 +121,8 @@ how to create customized dialog:
         setContentView(R.layout.activity_second)
 
         val builder = CalendarDialog.Builder()
-                .setMax_year(3000)
-                .setMin_year(1900)
+                .setMax_year(2025)
+                .setMin_year(2015)
                 .build()
 
         openCalendar(builder)
