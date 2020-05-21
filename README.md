@@ -123,6 +123,7 @@ how to create customized dialog:
         val builder = CalendarDialog.Builder()
                 .setMax_year(2025)
                 .setMin_year(2015)
+                .// and other optional settings
                 .build()
 
         openCalendar(builder)
