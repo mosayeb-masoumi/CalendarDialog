@@ -133,7 +133,9 @@ how to create customized dialog:
         val dialogFactory = DialogFactory(this)
         dialogFactory.createCalendarDialog(object : DialogFactory.DialogFactoryInteraction {
             override fun onAcceptButtonClicked(vararg strings: String?) {
-
+                  
+                 val date: String? = strings.get(0)
+                 text_date.text = date
             }
 
             override fun onDeniedButtonClicked(cancel_dialog: Boolean) {
