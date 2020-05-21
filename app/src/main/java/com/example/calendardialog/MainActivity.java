@@ -40,34 +40,34 @@ public class MainActivity extends AppCompatActivity {
 
         CalendarDialog calendarDialog = new CalendarDialog.Builder()
 
-                .max_year(2025)
-                .min_year(2015)
+                .setMax_year(2025)
+                .setMin_year(2015)
 
-                .title("calendar")
-                .titleTextColor(getResources().getColor(R.color.white))
-                .titleTextSize(20)
+                .setTitle("calendar")
+                .setTitleTextColor(getResources().getColor(R.color.white))
+                .setTitleTextSize(20)
 
-                .closeIconVisibility(true)
-                .closeIconBackgroundDrawable(getResources().getDrawable(R.drawable.ic_close))
+                .setCloseIconVisibility(true)
+                .setCloseIconBackgroundDrawable(getResources().getDrawable(R.drawable.ic_close))
 
-                .headerBackgroundColor(getResources().getColor(R.color.colorAccent))
-                .headerBackgroundDrawable(getResources().getDrawable(R.drawable.dialog_header_shape))
+                .setHeaderBackgroundColor(getResources().getColor(R.color.colorAccent))
+                .setHeaderBackgroundDrawable(getResources().getDrawable(R.drawable.dialog_header_shape))
 
-                .dateBackgroundColor(getResources().getColor(R.color.yellow))
-                .dateBackgroundDrawable(getResources().getDrawable(R.drawable.date_background))
+                .setDateBackgroundColor(getResources().getColor(R.color.yellow))
+                .setDateBackgroundDrawable(getResources().getDrawable(R.drawable.date_background))
 
-                .buttonRegisterBackgroundColor(getResources().getColor(R.color.colorAccent))
-                .buttonRegisterBackgroundDrawable(getResources().getDrawable(R.drawable.dialog_btn_shape))
-                .buttonRegisterTextColor(getResources().getColor(R.color.blue_dark))
-                .buttonRegisterTextSize(20)
+                .setButtonRegisterBackgroundColor(getResources().getColor(R.color.colorAccent))
+                .setButtonRegisterBackgroundDrawable(getResources().getDrawable(R.drawable.dialog_btn_shape))
+                .setButtonRegisterTextColor(getResources().getColor(R.color.blue_dark))
+                .setButtonRegisterTextSize(20)
 
-                .buttonSetTodayBackgroundColor(getResources().getColor(R.color.colorAccent))
-                .buttonSetTodayBackgroundDrawable(getResources().getDrawable(R.drawable.dialog_btn_shape))
-                .buttonSetTodayTextColor(getResources().getColor(R.color.blue_dark))
-                .buttonSetTodayTextSize(20)
+                .setButtonSetTodayBackgroundColor(getResources().getColor(R.color.colorAccent))
+                .setButtonSetTodayBackgroundDrawable(getResources().getDrawable(R.drawable.dialog_btn_shape))
+                .setButtonSetTodayTextColor(getResources().getColor(R.color.blue_dark))
+                .setButtonSetTodayTextSize(20)
 
-                .dialogBackgroundColor(getResources().getColor(R.color.colorAccent))
-                .dialogBackgroundDrawable(getResources().getDrawable(R.drawable.dialog_btn_shape))
+                .setDialogBackgroundColor(getResources().getColor(R.color.colorAccent))
+                .setDialogBackgroundDrawable(getResources().getDrawable(R.drawable.dialog_btn_shape))
 
                 .build();
 

@@ -159,103 +159,103 @@ public class CalendarDialog {
         private Drawable closeIconBackgroundDrawable;
         private Drawable dateBackgroundDrawable;
 
-        public Builder min_year(final int min_year) {
+        public Builder setMin_year(final int min_year) {
             this.min_year = min_year;
             return this;
         }
 
-        public Builder max_year(final int max_year) {
+        public Builder setMax_year(final int max_year) {
             this.max_year = max_year;
             return this;
         }
 
-        public Builder title(final String title) {
+        public Builder setTitle(final String title) {
             this.title = title;
             return this;
         }
 
-        public Builder titleTextColor(final int titleTextColor) {
+        public Builder setTitleTextColor(final int titleTextColor) {
             this.titleTextColor = titleTextColor;
             return this;
         }
-        public Builder titleTextSize(final int titleTextSize) {
+        public Builder setTitleTextSize(final int titleTextSize) {
             this.titleTextSize = titleTextSize;
             return this;
         }
 
-        public Builder closeIconVisibility(final Boolean closeIconVisibility) {
+        public Builder setCloseIconVisibility(final Boolean closeIconVisibility) {
             this.closeIconVisibility = closeIconVisibility;
             return this;
         }
 
-        public Builder headerBackgroundColor(final int headerBackgroundColor) {
+        public Builder setHeaderBackgroundColor(final int headerBackgroundColor) {
             this.headerBackgroundColor = headerBackgroundColor;
             return this;
         }
 
-        public Builder buttonRegisterTextColor(final int buttonRegisterTextColor) {
+        public Builder setButtonRegisterTextColor(final int buttonRegisterTextColor) {
             this.buttonRegisterTextColor = buttonRegisterTextColor;
             return this;
         }
-        public Builder buttonRegisterBackgroundColor(final int buttonRegisterBackgroundColor) {
+        public Builder setButtonRegisterBackgroundColor(final int buttonRegisterBackgroundColor) {
             this.buttonRegisterBackgroundColor = buttonRegisterBackgroundColor;
             return this;
         }
-        public Builder buttonRegisterTextSize(final int buttonRegisterTextSize) {
+        public Builder setButtonRegisterTextSize(final int buttonRegisterTextSize) {
             this.buttonRegisterTextSize = buttonRegisterTextSize;
             return this;
         }
 
-        public Builder buttonSetTodayBackgroundColor(final int buttonSetTodayBackgroundColor) {
+        public Builder setButtonSetTodayBackgroundColor(final int buttonSetTodayBackgroundColor) {
             this.buttonSetTodayBackgroundColor = buttonSetTodayBackgroundColor;
             return this;
         }
 
-        public Builder buttonSetTodayTextColor(final int buttonSetTodayTextColor) {
+        public Builder setButtonSetTodayTextColor(final int buttonSetTodayTextColor) {
             this.buttonSetTodayTextColor = buttonSetTodayTextColor;
             return this;
         }
-        public Builder buttonSetTodayTextSize(final int buttonSetTodayTextSize) {
+        public Builder setButtonSetTodayTextSize(final int buttonSetTodayTextSize) {
             this.buttonSetTodayTextSize = buttonSetTodayTextSize;
             return this;
         }
 
-        public Builder dialogBackgroundColor(final int dialogBackgroundColor) {
+        public Builder setDialogBackgroundColor(final int dialogBackgroundColor) {
             this.dialogBackgroundColor = dialogBackgroundColor;
             return this;
         }
 
-        public Builder dateBackgroundColor(final int dateBackgroundColor) {
+        public Builder setDateBackgroundColor(final int dateBackgroundColor) {
             this.dateBackgroundColor = dateBackgroundColor;
             return this;
         }
 
-        public Builder headerBackgroundDrawable(final Drawable headerBackgroundDrawable) {
+        public Builder setHeaderBackgroundDrawable(final Drawable headerBackgroundDrawable) {
             this.headerBackgroundDrawable = headerBackgroundDrawable;
             return this;
         }
 
-        public Builder buttonRegisterBackgroundDrawable(final Drawable buttonRegisterBackgroundDrawable) {
+        public Builder setButtonRegisterBackgroundDrawable(final Drawable buttonRegisterBackgroundDrawable) {
             this.buttonRegisterBackgroundDrawable = buttonRegisterBackgroundDrawable;
             return this;
         }
 
-        public Builder buttonSetTodayBackgroundDrawable(final Drawable buttonSetTodayBackgroundDrawable) {
+        public Builder setButtonSetTodayBackgroundDrawable(final Drawable buttonSetTodayBackgroundDrawable) {
             this.buttonSetTodayBackgroundDrawable = buttonSetTodayBackgroundDrawable;
             return this;
         }
 
-        public Builder dialogBackgroundDrawable(final Drawable dialogBackgroundDrawable) {
+        public Builder setDialogBackgroundDrawable(final Drawable dialogBackgroundDrawable) {
             this.dialogBackgroundDrawable = dialogBackgroundDrawable;
             return this;
         }
 
-        public Builder closeIconBackgroundDrawable(final Drawable closeIconBackgroundDrawable) {
+        public Builder setCloseIconBackgroundDrawable(final Drawable closeIconBackgroundDrawable) {
             this.closeIconBackgroundDrawable = closeIconBackgroundDrawable;
             return this;
         }
 
-        public Builder dateBackgroundDrawable(final Drawable dateBackgroundDrawable) {
+        public Builder setDateBackgroundDrawable(final Drawable dateBackgroundDrawable) {
             this.dateBackgroundDrawable = dateBackgroundDrawable;
             return this;
         }
