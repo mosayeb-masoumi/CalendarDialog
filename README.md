@@ -104,7 +104,7 @@ how to create customized dialog:
             public void onDeniedButtonClicked(boolean bool) {
 
             }
-
+         // layout_root is the id that we set in our layout.xml
         }, layout_root,calendarDialog);
     }
     
@@ -141,7 +141,7 @@ how to create customized dialog:
             override fun onDeniedButtonClicked(cancel_dialog: Boolean) {
 
             }
-
+          // layout_root is the id that we set in our layout.xml
         }, root_second, builder)
       }
      }
