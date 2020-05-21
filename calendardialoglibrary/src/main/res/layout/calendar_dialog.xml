@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/dialog_background"
+    android:gravity="center"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#3F51B5"
+        android:layoutDirection="ltr">
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_close"
+            android:layout_marginStart="10dp"
+            android:padding="6dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="calendar"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <NumberPicker
+            android:id="@+id/np_month"
+            android:layout_width="80dp"
+            android:theme="@style/AppTheme.Picker"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants">
+
+        </NumberPicker>
+
+        <NumberPicker
+            android:id="@+id/np_day"
+            android:layout_width="80dp"
+            android:theme="@style/AppTheme.Picker"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_height="wrap_content">
+
+        </NumberPicker>
+        <NumberPicker
+            android:id="@+id/np_year"
+            android:layout_width="80dp"
+            android:theme="@style/AppTheme.Picker"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_height="wrap_content">
+
+        </NumberPicker>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#3F51B5"
+            android:textAllCaps="false"
+            android:text="today"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:background="#3F51B5"
+            android:textAllCaps="false"
+            android:text="register"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
