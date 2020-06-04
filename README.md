@@ -150,7 +150,7 @@ how to create customized dialog:
     
     
     
- customized CalendarDialog dialog image:
+ customized CalendarDialog image:
  
 ![customized](https://user-images.githubusercontent.com/40134233/82564242-afc77580-9b8d-11ea-9c73-e749fb66a955.png)
     
